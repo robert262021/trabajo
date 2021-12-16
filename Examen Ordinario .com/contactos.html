@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contactos.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <header>
+        <div class="barra
+        ">
+            <h1>Roberto Abinadi</h1>
+            <ul>
+                <li><a href="index.html.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
+                <li><a href="contactos.html" id="activado">Contactos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div class="contacto">
+            <h3>Ponte en Contacto Conmigo</h3>
+            <form name='211217-contacto' method='post'><input type='hidden' name='form-name' value='211217-contacto' />
+                <label for="nombre">NOMBRE</label>
+                <input type="text" name="nombre" id="nombre" required>
+                <label for="correo">E-MAIL</label>
+                <input type="email" name="correo" id="correo" required>
+                <label for="mensaje">TU MENSAJE</label>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+                <input type="submit" value="Enviar" class="enviar">           
+            </form>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration:500,easing: 'ease',delay:500});
+      </script>
+    
+</body>
+</html>
